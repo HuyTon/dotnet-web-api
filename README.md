@@ -8,8 +8,9 @@ This repository contains a simple Web API written in Microsoft .Net Core and Ent
 
 To build the project, use the following command:
 
-````sh
+```sh
 dotnet build
+```
 
 ### Usage
 
@@ -17,8 +18,10 @@ To run the project, use the following command:
 
 ```sh
 dotnet run
+```
 
 ## API Endpoints
+
 - **GET Users:** Retrieve a list of users.
   Endpoint: localhost:5143/api/user
 - **GET Orders:** Retrieve a list of orders.
@@ -40,7 +43,7 @@ dotnet run
 
 ## Sample Response of GET Users
 
-```sh
+```
 [
     {
         "id": 1,
@@ -70,4 +73,4 @@ dotnet run
         "orders": []
     }
 ]
-````
+```
